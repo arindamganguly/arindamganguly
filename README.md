@@ -10,7 +10,7 @@
 
 </div>
 
-## `whoami`
+## `Who am I ?`
 
 I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri Government Engineering College (JGEC)**. I enjoy solving problems, building practical applications, and learning how software systems work end to end.
 
@@ -20,7 +20,7 @@ I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri
 - 💡 Interested in software engineering, DSA, full-stack development and AI applications
 - 🤝 Open to learning, collaboration and meaningful engineering projects
 
-## `tech_stack`
+## `Tech Stack`
 
 **Programming**  
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
@@ -52,7 +52,7 @@ I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-## `featured_projects`
+## `Featured Projects`
 
 | Project | What it does | Stack |
 |---|---|---|
@@ -64,13 +64,13 @@ I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri
 
 > Project descriptions summarize work discussed or documented. Add the corresponding repository links once the repositories are public and verified.
 
-## `contribution_activity`
+## `Contribution Activity`
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/arindamganguly/arindamganguly/output/github-contribution-grid-snake-dark.svg" alt="Animated contribution snake" width="100%">
 </div>
 
-## `find_me_online`
+## `Find me online`
 
 <div align="center">
 
