@@ -64,13 +64,6 @@ I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri
 
 > Project descriptions summarize work discussed or documented. Add the corresponding repository links once the repositories are public and verified.
 
-## `github_metrics`
-
-<!-- Metrics are generated automatically by .github/workflows/metrics.yml -->
-<div align="center">
-<img src="metrics.svg" alt="GitHub metrics dashboard" width="100%">
-</div>
-
 ## `contribution_activity`
 
 <div align="center">
