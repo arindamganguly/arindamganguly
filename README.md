@@ -15,7 +15,7 @@
 I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri Government Engineering College (JGEC)**. I enjoy solving problems, building practical applications, and learning how software systems work end to end.
 
 - 🎓 B.Tech in Information Technology, JGEC (2025–2029)
-- 📈 Current SGPA: **8.91**
+- 📈 Current SGPA: **8.41**
 - 🏆 **Smart India Hackathon 2025 Grand Finale finalist**, Team Leader
 - 💡 Interested in software engineering, DSA, full-stack development and AI applications
 - 🤝 Open to learning, collaboration and meaningful engineering projects
@@ -62,7 +62,7 @@ I'm **Arindam Ganguly**, an Information Technology undergraduate at **Jalpaiguri
 | **Mausam** | Weather-focused mobile application. | React Native |
 | **CiviSense** | Civic issue reporting and tracking platform concept. | React, FastAPI, PostgreSQL |
 
-> Project descriptions summarize work discussed or documented. Add the corresponding repository links once the repositories are public and verified.
+> Targeting to crack GSoC '27
 
 ## `Contribution Activity`
 
