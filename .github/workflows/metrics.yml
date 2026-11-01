@@ -1,0 +1,60 @@
+name: GitHub Metrics
+
+on:
+  # Refresh once per day and allow manual runs from the Actions tab.
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/metrics.yml"
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Generate profile metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Create a repository secret named METRICS_TOKEN (see setup guide).
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: arindamganguly
+          filename: metrics.svg
+          committer_message: "chore: update GitHub metrics [Skip GitHub Action]"
+          config_timezone: Asia/Kolkata
+          config_theme: github_dark
+          config_animations: yes
+          config_output: svg
+          base: header, activity, community, repositories
+          config_order: base.header, isocalendar, languages, habits, leetcode, achievements, base.activity, base.community, base.repositories
+
+          # GitHub activity and contribution calendar
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          # Languages detected from public repositories
+          plugin_languages: yes
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: percentage
+
+          # Coding activity / habits
+          plugin_habits: yes
+          plugin_habits_from: 300
+          plugin_habits_days: 30
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # LeetCode public profile
+          plugin_leetcode: yes
+          plugin_leetcode_user: arindam_ganguly
+          plugin_leetcode_sections: solved, skills, recent
+          plugin_leetcode_limit_skills: 8
+          plugin_leetcode_limit_recent: 5
+
+          # GitHub achievements
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
